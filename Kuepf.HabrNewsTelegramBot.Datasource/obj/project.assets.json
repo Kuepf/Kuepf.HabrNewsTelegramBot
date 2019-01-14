@@ -3203,11 +3203,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kuepf\\source\\repos\\Kuepf.HabrNewsTelegramBot\\Kuepf.HabrNewsTelegramBot.Datasource\\Kuepf.HabrNewsTelegramBot.Datasource.csproj",
+      "projectUniqueName": "C:\\Users\\Kuepf\\Documents\\Kuepf.HabrNewsTelegramBot\\Kuepf.HabrNewsTelegramBot.Datasource\\Kuepf.HabrNewsTelegramBot.Datasource.csproj",
       "projectName": "Kuepf.HabrNewsTelegramBot.Datasource",
-      "projectPath": "C:\\Users\\Kuepf\\source\\repos\\Kuepf.HabrNewsTelegramBot\\Kuepf.HabrNewsTelegramBot.Datasource\\Kuepf.HabrNewsTelegramBot.Datasource.csproj",
+      "projectPath": "C:\\Users\\Kuepf\\Documents\\Kuepf.HabrNewsTelegramBot\\Kuepf.HabrNewsTelegramBot.Datasource\\Kuepf.HabrNewsTelegramBot.Datasource.csproj",
       "packagesPath": "C:\\Users\\Kuepf\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kuepf\\source\\repos\\Kuepf.HabrNewsTelegramBot\\Kuepf.HabrNewsTelegramBot.Datasource\\obj\\",
+      "outputPath": "C:\\Users\\Kuepf\\Documents\\Kuepf.HabrNewsTelegramBot\\Kuepf.HabrNewsTelegramBot.Datasource\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
