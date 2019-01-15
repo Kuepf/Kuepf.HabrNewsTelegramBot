@@ -352,6 +352,7 @@
       "Kuepf.HabrNewsTelegramBot.Datasource/1.0.0": {
         "dependencies": {
           "HtmlAgilityPack": "1.8.12",
+          "Kuepf.HabrNewsTelegramBot.IoC": "1.0.0",
           "Telegram.Bot": "14.10.0"
         },
         "runtime": {
@@ -359,6 +360,17 @@
         },
         "compile": {
           "Kuepf.HabrNewsTelegramBot.Datasource.dll": {}
+        }
+      },
+      "Kuepf.HabrNewsTelegramBot.IoC/1.0.0": {
+        "dependencies": {
+          "Telegram.Bot": "14.10.0"
+        },
+        "runtime": {
+          "Kuepf.HabrNewsTelegramBot.IoC.dll": {}
+        },
+        "compile": {
+          "Kuepf.HabrNewsTelegramBot.IoC.dll": {}
         }
       },
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
@@ -3375,6 +3387,11 @@
       "hashPath": "telegram.bot.14.10.0.nupkg.sha512"
     },
     "Kuepf.HabrNewsTelegramBot.Datasource/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Kuepf.HabrNewsTelegramBot.IoC/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

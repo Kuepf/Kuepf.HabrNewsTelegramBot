@@ -9,6 +9,7 @@ namespace Kuepf.HabrNewsTelegramBot.Datasource.Models
     public class Bot : IBot
     {
         private TelegramBotClient botClient;
+
         public List<ICommand> commandsList { get; set; }
         public async Task<TelegramBotClient> GetBotClientAsync()
         {

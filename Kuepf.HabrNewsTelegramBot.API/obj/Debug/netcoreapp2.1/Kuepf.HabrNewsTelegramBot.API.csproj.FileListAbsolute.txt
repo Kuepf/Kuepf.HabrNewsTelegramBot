@@ -32,3 +32,5 @@ C:\Users\Kuepf\Documents\Kuepf.HabrNewsTelegramBot\Kuepf.HabrNewsTelegramBot.API
 C:\Users\Kuepf\Documents\Kuepf.HabrNewsTelegramBot\Kuepf.HabrNewsTelegramBot.API\obj\Debug\netcoreapp2.1\Kuepf.HabrNewsTelegramBot.API.csproj.CopyComplete
 C:\Users\Kuepf\Documents\Kuepf.HabrNewsTelegramBot\Kuepf.HabrNewsTelegramBot.API\obj\Debug\netcoreapp2.1\Kuepf.HabrNewsTelegramBot.API.dll
 C:\Users\Kuepf\Documents\Kuepf.HabrNewsTelegramBot\Kuepf.HabrNewsTelegramBot.API\obj\Debug\netcoreapp2.1\Kuepf.HabrNewsTelegramBot.API.pdb
+C:\Users\Kuepf\Documents\Kuepf.HabrNewsTelegramBot\Kuepf.HabrNewsTelegramBot.API\bin\Debug\netcoreapp2.1\Kuepf.HabrNewsTelegramBot.IoC.dll
+C:\Users\Kuepf\Documents\Kuepf.HabrNewsTelegramBot\Kuepf.HabrNewsTelegramBot.API\bin\Debug\netcoreapp2.1\Kuepf.HabrNewsTelegramBot.IoC.pdb

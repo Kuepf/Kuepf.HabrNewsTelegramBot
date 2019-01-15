@@ -7,5 +7,7 @@ namespace Kuepf.HabrNewsTelegramBot.IoC.Interfaces
     public interface IBot
     {
         Task<TelegramBotClient> GetBotClientAsync();
+
+        List<ICommand> commandsList { get; set; }
     }
 }
