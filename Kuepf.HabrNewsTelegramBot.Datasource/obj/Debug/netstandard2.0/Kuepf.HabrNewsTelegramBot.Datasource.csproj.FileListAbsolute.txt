@@ -7,3 +7,12 @@ C:\Users\Kuepf\source\repos\Kuepf.HabrNewsTelegramBot\Kuepf.HabrNewsTelegramBot.
 C:\Users\Kuepf\source\repos\Kuepf.HabrNewsTelegramBot\Kuepf.HabrNewsTelegramBot.Datasource\bin\Debug\netstandard2.0\Kuepf.HabrNewsTelegramBot.Datasource.pdb
 C:\Users\Kuepf\source\repos\Kuepf.HabrNewsTelegramBot\Kuepf.HabrNewsTelegramBot.Datasource\obj\Debug\netstandard2.0\Kuepf.HabrNewsTelegramBot.Datasource.dll
 C:\Users\Kuepf\source\repos\Kuepf.HabrNewsTelegramBot\Kuepf.HabrNewsTelegramBot.Datasource\obj\Debug\netstandard2.0\Kuepf.HabrNewsTelegramBot.Datasource.pdb
+C:\Users\Kuepf\Documents\Kuepf.HabrNewsTelegramBot\Kuepf.HabrNewsTelegramBot.Datasource\bin\Debug\netstandard2.0\Kuepf.HabrNewsTelegramBot.Datasource.deps.json
+C:\Users\Kuepf\Documents\Kuepf.HabrNewsTelegramBot\Kuepf.HabrNewsTelegramBot.Datasource\bin\Debug\netstandard2.0\Kuepf.HabrNewsTelegramBot.Datasource.dll
+C:\Users\Kuepf\Documents\Kuepf.HabrNewsTelegramBot\Kuepf.HabrNewsTelegramBot.Datasource\bin\Debug\netstandard2.0\Kuepf.HabrNewsTelegramBot.Datasource.pdb
+C:\Users\Kuepf\Documents\Kuepf.HabrNewsTelegramBot\Kuepf.HabrNewsTelegramBot.Datasource\obj\Debug\netstandard2.0\Kuepf.HabrNewsTelegramBot.Datasource.csprojAssemblyReference.cache
+C:\Users\Kuepf\Documents\Kuepf.HabrNewsTelegramBot\Kuepf.HabrNewsTelegramBot.Datasource\obj\Debug\netstandard2.0\Kuepf.HabrNewsTelegramBot.Datasource.csproj.CoreCompileInputs.cache
+C:\Users\Kuepf\Documents\Kuepf.HabrNewsTelegramBot\Kuepf.HabrNewsTelegramBot.Datasource\obj\Debug\netstandard2.0\Kuepf.HabrNewsTelegramBot.Datasource.AssemblyInfoInputs.cache
+C:\Users\Kuepf\Documents\Kuepf.HabrNewsTelegramBot\Kuepf.HabrNewsTelegramBot.Datasource\obj\Debug\netstandard2.0\Kuepf.HabrNewsTelegramBot.Datasource.AssemblyInfo.cs
+C:\Users\Kuepf\Documents\Kuepf.HabrNewsTelegramBot\Kuepf.HabrNewsTelegramBot.Datasource\obj\Debug\netstandard2.0\Kuepf.HabrNewsTelegramBot.Datasource.dll
+C:\Users\Kuepf\Documents\Kuepf.HabrNewsTelegramBot\Kuepf.HabrNewsTelegramBot.Datasource\obj\Debug\netstandard2.0\Kuepf.HabrNewsTelegramBot.Datasource.pdb
