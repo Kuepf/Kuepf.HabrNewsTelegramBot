@@ -4435,6 +4435,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "HtmlAgilityPack": "1.8.12",
+          "Kuepf.HabrNewsTelegramBot.IoC": "1.0.0",
           "Telegram.Bot": "14.10.0"
         },
         "compile": {
@@ -4442,6 +4443,19 @@
         },
         "runtime": {
           "bin/placeholder/Kuepf.HabrNewsTelegramBot.Datasource.dll": {}
+        }
+      },
+      "Kuepf.HabrNewsTelegramBot.IoC/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Telegram.Bot": "14.10.0"
+        },
+        "compile": {
+          "bin/placeholder/Kuepf.HabrNewsTelegramBot.IoC.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Kuepf.HabrNewsTelegramBot.IoC.dll": {}
         }
       }
     }
@@ -12081,6 +12095,11 @@
       "type": "project",
       "path": "../Kuepf.HabrNewsTelegramBot.Datasource/Kuepf.HabrNewsTelegramBot.Datasource.csproj",
       "msbuildProject": "../Kuepf.HabrNewsTelegramBot.Datasource/Kuepf.HabrNewsTelegramBot.Datasource.csproj"
+    },
+    "Kuepf.HabrNewsTelegramBot.IoC/1.0.0": {
+      "type": "project",
+      "path": "../Kuepf.HabrNewsTelegramBot.IoC/Kuepf.HabrNewsTelegramBot.IoC.csproj",
+      "msbuildProject": "../Kuepf.HabrNewsTelegramBot.IoC/Kuepf.HabrNewsTelegramBot.IoC.csproj"
     }
   },
   "projectFileDependencyGroups": {
