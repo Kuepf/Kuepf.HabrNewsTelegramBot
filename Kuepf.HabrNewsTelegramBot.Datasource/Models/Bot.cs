@@ -1,25 +1,24 @@
 ﻿using Kuepf.HabrNewsTelegramBot.Datasource.Commands;
+using Kuepf.HabrNewsTelegramBot.IoC.Interfaces;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using Telegram.Bot;
 
 namespace Kuepf.HabrNewsTelegramBot.Datasource.Models
 {
-    public class Bot
+    public class Bot : IBot
     {
-        private static TelegramBotClient botClient;
-        private static List<Command> commandsList;
+        private TelegramBotClient botClient;
 
-        public static IReadOnlyList<Command> Commands => commandsList.AsReadOnly();
-
-        public static async Task<TelegramBotClient> GetBotClientAsync()
+        public List<ICommand> commandsList { get; set; }
+        public async Task<TelegramBotClient> GetBotClientAsync()
         {
             if (botClient != null)
             {
                 return botClient;
             }
 
-            commandsList = new List<Command>();
+            commandsList = new List<ICommand>();
             commandsList.Add(new StartCommand());
             //TODO: Add more commands
 
