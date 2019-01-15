@@ -12015,11 +12015,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kuepf\\source\\repos\\Kuepf.HabrNewsTelegramBot\\Kuepf.HabrNewsTelegramBot.API\\Kuepf.HabrNewsTelegramBot.API.csproj",
+      "projectUniqueName": "C:\\Users\\Kuepf\\Documents\\Kuepf.HabrNewsTelegramBot\\Kuepf.HabrNewsTelegramBot.API\\Kuepf.HabrNewsTelegramBot.API.csproj",
       "projectName": "Kuepf.HabrNewsTelegramBot.API",
-      "projectPath": "C:\\Users\\Kuepf\\source\\repos\\Kuepf.HabrNewsTelegramBot\\Kuepf.HabrNewsTelegramBot.API\\Kuepf.HabrNewsTelegramBot.API.csproj",
+      "projectPath": "C:\\Users\\Kuepf\\Documents\\Kuepf.HabrNewsTelegramBot\\Kuepf.HabrNewsTelegramBot.API\\Kuepf.HabrNewsTelegramBot.API.csproj",
       "packagesPath": "C:\\Users\\Kuepf\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kuepf\\source\\repos\\Kuepf.HabrNewsTelegramBot\\Kuepf.HabrNewsTelegramBot.API\\obj\\",
+      "outputPath": "C:\\Users\\Kuepf\\Documents\\Kuepf.HabrNewsTelegramBot\\Kuepf.HabrNewsTelegramBot.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12038,8 +12038,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\Kuepf\\source\\repos\\Kuepf.HabrNewsTelegramBot\\Kuepf.HabrNewsTelegramBot.Datasource\\Kuepf.HabrNewsTelegramBot.Datasource.csproj": {
-              "projectPath": "C:\\Users\\Kuepf\\source\\repos\\Kuepf.HabrNewsTelegramBot\\Kuepf.HabrNewsTelegramBot.Datasource\\Kuepf.HabrNewsTelegramBot.Datasource.csproj"
+            "C:\\Users\\Kuepf\\Documents\\Kuepf.HabrNewsTelegramBot\\Kuepf.HabrNewsTelegramBot.Datasource\\Kuepf.HabrNewsTelegramBot.Datasource.csproj": {
+              "projectPath": "C:\\Users\\Kuepf\\Documents\\Kuepf.HabrNewsTelegramBot\\Kuepf.HabrNewsTelegramBot.Datasource\\Kuepf.HabrNewsTelegramBot.Datasource.csproj"
             }
           }
         }
