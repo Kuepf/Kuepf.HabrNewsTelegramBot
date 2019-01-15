@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Kuepf.HabrNewsTelegramBot.API.Services;
 using Kuepf.HabrNewsTelegramBot.Datasource.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -27,6 +28,7 @@ namespace Kuepf.HabrNewsTelegramBot.API
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+            services.AddScoped<IHabrScraper, HabrScraper>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -41,7 +43,7 @@ namespace Kuepf.HabrNewsTelegramBot.API
                 app.UseHsts();
             }
 
-            Bot.GetBotClientAsync().Wait();
+            // Bot.GetBotClientAsync().Wait();
             app.UseHttpsRedirection();
             app.UseMvc();
         }
