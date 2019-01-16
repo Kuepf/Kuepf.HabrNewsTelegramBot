@@ -1,4 +1,5 @@
 ﻿using HtmlAgilityPack;
+using Kuepf.HabrNewsTelegramBot.IoC.Interfaces;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 

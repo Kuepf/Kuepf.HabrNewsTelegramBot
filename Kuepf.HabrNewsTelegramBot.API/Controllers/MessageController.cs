@@ -1,5 +1,6 @@
 ﻿using Kuepf.HabrNewsTelegramBot.API.Services;
 using Kuepf.HabrNewsTelegramBot.Datasource.Models;
+using Kuepf.HabrNewsTelegramBot.IoC.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System.Threading.Tasks;
@@ -11,10 +12,12 @@ namespace Kuepf.HabrNewsTelegramBot.API.Controllers
     public class MessageController : Controller
     {
         private IHabrScraper _habrScraper;
+        private IBot _bot;
 
-        public MessageController(IHabrScraper habrScraper)
+        public MessageController(IHabrScraper habrScraper, IBot bot)
         {
             _habrScraper = habrScraper;
+            _bot = bot;
         }
 
         [HttpPost]
@@ -22,9 +25,9 @@ namespace Kuepf.HabrNewsTelegramBot.API.Controllers
         {
             if (update == null) return Ok();
 
-            var commands = Bot.Commands;
+            var commands = _bot.commandsList;
             var message = update.Message;
-            var botClient = await Bot.GetBotClientAsync();
+            var botClient = await _bot.GetBotClientAsync();
 
             foreach (var command in commands)
             {

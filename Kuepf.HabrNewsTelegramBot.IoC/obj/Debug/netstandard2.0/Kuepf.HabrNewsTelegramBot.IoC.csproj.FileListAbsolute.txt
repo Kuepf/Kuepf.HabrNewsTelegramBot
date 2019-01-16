@@ -1,0 +1,9 @@
+C:\Users\Kuepf\Documents\Kuepf.HabrNewsTelegramBot\Kuepf.HabrNewsTelegramBot.IoC\bin\Debug\netstandard2.0\Kuepf.HabrNewsTelegramBot.IoC.deps.json
+C:\Users\Kuepf\Documents\Kuepf.HabrNewsTelegramBot\Kuepf.HabrNewsTelegramBot.IoC\bin\Debug\netstandard2.0\Kuepf.HabrNewsTelegramBot.IoC.dll
+C:\Users\Kuepf\Documents\Kuepf.HabrNewsTelegramBot\Kuepf.HabrNewsTelegramBot.IoC\obj\Debug\netstandard2.0\Kuepf.HabrNewsTelegramBot.IoC.csprojAssemblyReference.cache
+C:\Users\Kuepf\Documents\Kuepf.HabrNewsTelegramBot\Kuepf.HabrNewsTelegramBot.IoC\obj\Debug\netstandard2.0\Kuepf.HabrNewsTelegramBot.IoC.csproj.CoreCompileInputs.cache
+C:\Users\Kuepf\Documents\Kuepf.HabrNewsTelegramBot\Kuepf.HabrNewsTelegramBot.IoC\obj\Debug\netstandard2.0\Kuepf.HabrNewsTelegramBot.IoC.AssemblyInfoInputs.cache
+C:\Users\Kuepf\Documents\Kuepf.HabrNewsTelegramBot\Kuepf.HabrNewsTelegramBot.IoC\obj\Debug\netstandard2.0\Kuepf.HabrNewsTelegramBot.IoC.AssemblyInfo.cs
+C:\Users\Kuepf\Documents\Kuepf.HabrNewsTelegramBot\Kuepf.HabrNewsTelegramBot.IoC\bin\Debug\netstandard2.0\Kuepf.HabrNewsTelegramBot.IoC.pdb
+C:\Users\Kuepf\Documents\Kuepf.HabrNewsTelegramBot\Kuepf.HabrNewsTelegramBot.IoC\obj\Debug\netstandard2.0\Kuepf.HabrNewsTelegramBot.IoC.dll
+C:\Users\Kuepf\Documents\Kuepf.HabrNewsTelegramBot\Kuepf.HabrNewsTelegramBot.IoC\obj\Debug\netstandard2.0\Kuepf.HabrNewsTelegramBot.IoC.pdb

@@ -4434,6 +4434,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "C:\\Users\\Kuepf\\Documents\\Kuepf.HabrNewsTelegramBot\\Kuepf.HabrNewsTelegramBot.IoC\\Kuepf.HabrNewsTelegramBot.IoC.csproj": "1.0.0",
           "HtmlAgilityPack": "1.8.12",
           "Telegram.Bot": "14.10.0"
         },
@@ -12170,5 +12171,16 @@
         "warn": true
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'C:\\Users\\Kuepf\\Documents\\Kuepf.HabrNewsTelegramBot\\Kuepf.HabrNewsTelegramBot.IoC\\Kuepf.HabrNewsTelegramBot.IoC.csproj'. Inside Visual Studio, this may be because the project is unloaded or not part of current solution. Otherwise the project file may be invalid or missing targets required for restore.",
+      "libraryId": "C:\\Users\\Kuepf\\Documents\\Kuepf.HabrNewsTelegramBot\\Kuepf.HabrNewsTelegramBot.IoC\\Kuepf.HabrNewsTelegramBot.IoC.csproj",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.1"
+      ]
+    }
+  ]
 }

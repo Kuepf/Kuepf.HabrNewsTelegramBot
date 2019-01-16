@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Kuepf.HabrNewsTelegramBot.API.Services;
 using Kuepf.HabrNewsTelegramBot.Datasource.Models;
+using Kuepf.HabrNewsTelegramBot.IoC.Interfaces;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -29,6 +30,8 @@ namespace Kuepf.HabrNewsTelegramBot.API
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
             services.AddScoped<IHabrScraper, HabrScraper>();
+
+            services.AddSingleton<IBot, Bot>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
