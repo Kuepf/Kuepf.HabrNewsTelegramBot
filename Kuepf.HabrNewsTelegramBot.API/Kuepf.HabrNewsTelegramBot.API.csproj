@@ -17,6 +17,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Kuepf.HabrNewsTelegramBot.Datasource\Kuepf.HabrNewsTelegramBot.Datasource.csproj" />
+    <ProjectReference Include="..\Kuepf.HabrNewsTelegramBot.IoC\Kuepf.HabrNewsTelegramBot.IoC.csproj" />
   </ItemGroup>
 
 </Project>

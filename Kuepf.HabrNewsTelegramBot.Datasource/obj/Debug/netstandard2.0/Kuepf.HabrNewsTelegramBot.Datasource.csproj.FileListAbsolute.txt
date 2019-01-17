@@ -19,3 +19,5 @@ C:\Users\Kuepf\Documents\Kuepf.HabrNewsTelegramBot\Kuepf.HabrNewsTelegramBot.Dat
 C:\Users\Kuepf\Documents\Kuepf.HabrNewsTelegramBot\Kuepf.HabrNewsTelegramBot.Datasource\bin\Debug\netstandard2.0\Kuepf.HabrNewsTelegramBot.IoC.dll
 C:\Users\Kuepf\Documents\Kuepf.HabrNewsTelegramBot\Kuepf.HabrNewsTelegramBot.Datasource\bin\Debug\netstandard2.0\Kuepf.HabrNewsTelegramBot.IoC.pdb
 C:\Users\Kuepf\Documents\Kuepf.HabrNewsTelegramBot\Kuepf.HabrNewsTelegramBot.Datasource\obj\Debug\netstandard2.0\Kuepf.HabrNewsTelegramBot.Datasource.csproj.CopyComplete
+C:\Users\Kuepf\Documents\Kuepf.HabrNewsTelegramBot\Kuepf.HabrNewsTelegramBot.Datasource\bin\Debug\netstandard2.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Kuepf\Documents\Kuepf.HabrNewsTelegramBot\Kuepf.HabrNewsTelegramBot.Datasource\bin\Debug\netstandard2.0\Microsoft.EntityFrameworkCore.Relational.xml

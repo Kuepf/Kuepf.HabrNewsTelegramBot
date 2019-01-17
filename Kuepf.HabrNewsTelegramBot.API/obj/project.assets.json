@@ -4434,8 +4434,9 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "C:\\Users\\Kuepf\\Documents\\Kuepf.HabrNewsTelegramBot\\Kuepf.HabrNewsTelegramBot.IoC\\Kuepf.HabrNewsTelegramBot.IoC.csproj": "1.0.0",
           "HtmlAgilityPack": "1.8.12",
+          "Kuepf.HabrNewsTelegramBot.IoC": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "2.1.1",
           "Telegram.Bot": "14.10.0"
         },
         "compile": {
@@ -4443,6 +4444,19 @@
         },
         "runtime": {
           "bin/placeholder/Kuepf.HabrNewsTelegramBot.Datasource.dll": {}
+        }
+      },
+      "Kuepf.HabrNewsTelegramBot.IoC/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Telegram.Bot": "14.10.0"
+        },
+        "compile": {
+          "bin/placeholder/Kuepf.HabrNewsTelegramBot.IoC.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Kuepf.HabrNewsTelegramBot.IoC.dll": {}
         }
       }
     }
@@ -12082,12 +12096,18 @@
       "type": "project",
       "path": "../Kuepf.HabrNewsTelegramBot.Datasource/Kuepf.HabrNewsTelegramBot.Datasource.csproj",
       "msbuildProject": "../Kuepf.HabrNewsTelegramBot.Datasource/Kuepf.HabrNewsTelegramBot.Datasource.csproj"
+    },
+    "Kuepf.HabrNewsTelegramBot.IoC/1.0.0": {
+      "type": "project",
+      "path": "../Kuepf.HabrNewsTelegramBot.IoC/Kuepf.HabrNewsTelegramBot.IoC.csproj",
+      "msbuildProject": "../Kuepf.HabrNewsTelegramBot.IoC/Kuepf.HabrNewsTelegramBot.IoC.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
       "HtmlAgilityPack >= 1.8.12",
       "Kuepf.HabrNewsTelegramBot.Datasource >= 1.0.0",
+      "Kuepf.HabrNewsTelegramBot.IoC >= 1.0.0",
       "Microsoft.AspNetCore.App >= 2.1.1",
       "Microsoft.AspNetCore.Razor.Design >= 2.1.2",
       "Microsoft.NETCore.App >= 2.1.0",
@@ -12126,6 +12146,9 @@
           "projectReferences": {
             "C:\\Users\\Kuepf\\Documents\\Kuepf.HabrNewsTelegramBot\\Kuepf.HabrNewsTelegramBot.Datasource\\Kuepf.HabrNewsTelegramBot.Datasource.csproj": {
               "projectPath": "C:\\Users\\Kuepf\\Documents\\Kuepf.HabrNewsTelegramBot\\Kuepf.HabrNewsTelegramBot.Datasource\\Kuepf.HabrNewsTelegramBot.Datasource.csproj"
+            },
+            "C:\\Users\\Kuepf\\Documents\\Kuepf.HabrNewsTelegramBot\\Kuepf.HabrNewsTelegramBot.IoC\\Kuepf.HabrNewsTelegramBot.IoC.csproj": {
+              "projectPath": "C:\\Users\\Kuepf\\Documents\\Kuepf.HabrNewsTelegramBot\\Kuepf.HabrNewsTelegramBot.IoC\\Kuepf.HabrNewsTelegramBot.IoC.csproj"
             }
           }
         }
@@ -12171,16 +12194,5 @@
         "warn": true
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1105",
-      "level": "Error",
-      "message": "Unable to find project information for 'C:\\Users\\Kuepf\\Documents\\Kuepf.HabrNewsTelegramBot\\Kuepf.HabrNewsTelegramBot.IoC\\Kuepf.HabrNewsTelegramBot.IoC.csproj'. Inside Visual Studio, this may be because the project is unloaded or not part of current solution. Otherwise the project file may be invalid or missing targets required for restore.",
-      "libraryId": "C:\\Users\\Kuepf\\Documents\\Kuepf.HabrNewsTelegramBot\\Kuepf.HabrNewsTelegramBot.IoC\\Kuepf.HabrNewsTelegramBot.IoC.csproj",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v2.1"
-      ]
-    }
-  ]
+  }
 }

@@ -2,22 +2,30 @@
 using Kuepf.HabrNewsTelegramBot.Datasource.Models;
 using Kuepf.HabrNewsTelegramBot.IoC.Interfaces;
 using Microsoft.AspNetCore.Mvc;
+using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using Telegram.Bot.Types;
 
 namespace Kuepf.HabrNewsTelegramBot.API.Controllers
 {
-    [Route("api/message/update")]
+    [Route("api/[controller]/[action]")]
     public class MessageController : Controller
     {
+        Types types;
+        Objects postObj;
+
         private IHabrScraper _habrScraper;
         private IBot _bot;
+        private TelegramBotContext _botDb;
 
-        public MessageController(IHabrScraper habrScraper, IBot bot)
+        public MessageController(IHabrScraper habrScraper, IBot bot, TelegramBotContext context)
         {
             _habrScraper = habrScraper;
             _bot = bot;
+            _botDb = context;
+            types = new Types { Name = "string", ID = Guid.NewGuid() };
+            postObj = new Objects { Name = "Posts", TypesID = types, ID = Guid.NewGuid() };
         }
 
         [HttpPost]
@@ -44,6 +52,16 @@ namespace Kuepf.HabrNewsTelegramBot.API.Controllers
         public async Task<List<string>> Get()
         {
             return await _habrScraper.GetPosts();
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> Create()
+        {
+            await _botDb.Types.AddAsync(types);
+            await _botDb.Objects.AddAsync(postObj);
+            await _botDb.SaveChangesAsync();
+
+            return Ok();
         }
     }
 }

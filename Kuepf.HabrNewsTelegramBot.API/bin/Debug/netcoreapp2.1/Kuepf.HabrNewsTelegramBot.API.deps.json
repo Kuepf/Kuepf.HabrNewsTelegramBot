@@ -26,6 +26,7 @@
         "dependencies": {
           "HtmlAgilityPack": "1.8.12",
           "Kuepf.HabrNewsTelegramBot.Datasource": "1.0.0",
+          "Kuepf.HabrNewsTelegramBot.IoC": "1.0.0",
           "Microsoft.AspNetCore.App": "2.1.1",
           "Microsoft.AspNetCore.Razor.Design": "2.1.2",
           "Microsoft.NETCore.App": "2.1.0",
@@ -353,6 +354,7 @@
         "dependencies": {
           "HtmlAgilityPack": "1.8.12",
           "Kuepf.HabrNewsTelegramBot.IoC": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "2.1.1",
           "Telegram.Bot": "14.10.0"
         },
         "runtime": {
